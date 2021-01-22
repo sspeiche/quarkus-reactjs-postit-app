@@ -8,7 +8,7 @@ components:
   - alias: quarkus-backend-dev
     type: dockerimage
     image: quay.io/quarkus/centos-quarkus-maven:20.1.0-java11
-    memoryLimit: 4Gi
+    memoryLimit: 2.5Gi
     command: ['sleep']
     args: ['infinity']
     mountSources: true
